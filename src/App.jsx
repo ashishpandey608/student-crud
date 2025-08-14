@@ -111,7 +111,7 @@ export default function App() {
 
   return (
     <div className="container py-4">
-      <h2 className="text-center mb-4">Student Records CRUD</h2>
+      <h2 className="text-center mb-4 custom-heading">Student Records CRUD</h2>
 
       {/* Form */}
       <form className="mb-4" onSubmit={handleSubmit}>
