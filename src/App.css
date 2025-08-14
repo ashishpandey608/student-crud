@@ -1,0 +1,19 @@
+
+
+
+/* Remove the hardcoded margin-left and center the container */
+.custom-form {
+  max-width: 80%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure the heading is properly centered within its container */
+.custom-heading {
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  border-bottom: 3px solid #0d6efd;
+  display: inline-block;
+  padding-bottom: 5px;
+}
