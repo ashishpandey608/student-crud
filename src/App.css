@@ -4,7 +4,7 @@
 /* Remove the hardcoded margin-left and center the container */
 .custom-form {
   max-width: 80%;
-  margin-left: 15%;
+  margin-left: 10%;
   margin-right: 15%;
   padding: 20px;
   font-family: Arial, sans-serif;
