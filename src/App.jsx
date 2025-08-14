@@ -72,10 +72,6 @@ export default function App() {
     }
   };
 
-// ... (existing code)
-
-// ... (existing code)
-
 return (
   <div className="container mt-4 text-center custom-form">
     <h2 className="text-center mb-4 fw-bold custom-heading">
@@ -91,7 +87,7 @@ return (
 
     <form onSubmit={handleSubmit} className="card p-3 mb-4 shadow">
       <div className="row g-3">
-        {/* Name input takes full width on small screens, 4 columns on medium and larger */}
+        {/* Name input */}
         <div className="col-12 col-md-4">
           <input
             type="text"
@@ -103,7 +99,7 @@ return (
             required
           />
         </div>
-        {/* Age input takes full width on small screens, 2 columns on medium and larger */}
+        {/* Age input */}
         <div className="col-12 col-md-2">
           <input
             type="number"
@@ -115,7 +111,7 @@ return (
             required
           />
         </div>
-        {/* Marks inputs take 4 columns on small screens, 1 on medium and larger */}
+        {/* Marks inputs */}
         {[1, 2, 3, 4, 5].map((num) => (
           <div className="col-4 col-md-1" key={num}>
             <input
@@ -134,8 +130,6 @@ return (
         {editIndex !== null ? "Update" : "Add"} Student
       </button>
     </form>
-
-    {/* The table-responsive class adds horizontal scrolling for small screens */}
     <div className="table-responsive">
       <table className="table table-bordered table-striped table-hover">
         <thead className="table-dark">
@@ -169,7 +163,6 @@ return (
                 <td>{s.percentage}</td>
                 <td>{s.division}</td>
                 <td>
-                  {/* Buttons stack on small screens and display side-by-side on larger ones */}
                   <div className="d-flex flex-column flex-md-row justify-content-center">
                     <button
                       className="btn btn-warning btn-sm me-md-2 mb-2 mb-md-0"
